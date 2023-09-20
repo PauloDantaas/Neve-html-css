@@ -1,6 +1,5 @@
 @import url('./navbar.css');
 
-
 .hero{
     background-image:  url('./img/backgroundBoy.jpg');
     background-size: cover;
@@ -23,15 +22,15 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 40%;
+    opacity: 90%;
     background-image: url('./img/neve.png');
-    animation: neve 0.2s linear infinite;
+    animation: neve 20s linear infinite;
 }
 @keyframes neve{
     0%{
         background-position: 0 0;
     }
     100%{
-        background-position: 100% 1000%;
+        background-position: 10% 1000%;
     }
 }
